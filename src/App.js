@@ -5,6 +5,7 @@ import SearchBar from './components/layout/SearchBar';
 import Logs from './components/logs/Logs';
 import AddBtn from './components/layout/AddBtn';
 import AddLogModal from './components/logs/AddLogsModal';
+import EditLogModel from './components/logs/EditLogModal';
 import './App.css';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <div className='container'>
         <AddBtn />
         <AddLogModal />
+        <EditLogModel />
         <Logs />
       </div>
     </Fragment>
