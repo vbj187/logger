@@ -31,12 +31,6 @@ const AddTechModal = () => {
               First Name
             </label>
           </div>
-        </div>
-      </div>
-
-      <div className='modal-content'>
-        <h4>New Technician</h4>
-        <div className='row'>
           <div className='input-field'>
             <input
               type='text'
@@ -50,6 +44,7 @@ const AddTechModal = () => {
           </div>
         </div>
       </div>
+
       <div className='modal-footer'>
         <a
           href='#!'
